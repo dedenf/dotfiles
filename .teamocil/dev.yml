@@ -1,0 +1,23 @@
+session:
+    name: "development session"
+    windows:
+    - name: "GITs api"
+      root: ~/Sites/apps/api
+      panes:
+      - cmd: "git status"
+    - name: "ssh"
+      root: ~
+      panes:
+      - cmd: "ls"
+    - name: "vagrant"
+      root: ~/devop/hive
+      panes:
+      - cmd: "vagrant status"
+    - name: "hive3"
+      root: ~/devop/hive/
+      panes:
+      - cmd: "vagrant status hive3"
+    - name: "db"
+      root: ~/devop/hive/
+      panes:
+      - cmd: "vagrant status db"
